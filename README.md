@@ -1,7 +1,8 @@
 # TensorFlow 2.x Basic
 
-### Source https://www.youtube.com/watch?v=tPYj3fFJGjk&t=1s
-
+### Source
+- https://www.youtube.com/watch?v=tPYj3fFJGjk&t=1s
+- https://www.guru99.com/tensorflow-tutorial.html
 
 1. Install Virtual Environment in Windows
     - `$ pip install virtualenv`
