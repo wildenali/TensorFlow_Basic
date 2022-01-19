@@ -12,8 +12,13 @@
     - `$ cd ../..`
 
 2. Install TensorFlow
-   - `$ pip install --upgrade pip`
-   - `$ pip install tensorflow`
-   - `$ pip install tf-nightly` //opsional
-3. 
+    - `$ pip install --upgrade pip`
+    - `$ pip install tensorflow`
+    - `$ pip install tf-nightly` //opsional
+
+3. If using Jupyter Notebook
+    - Change directory to your project
+    - `$ ipython kernel install --user --name=venv`
+    - `$ jupyter notebook`
+    - On the jupyter notebook, open the project and change the kernel to venv
    
