@@ -21,4 +21,8 @@
     - `$ ipython kernel install --user --name=venv`
     - `$ jupyter notebook`
     - On the jupyter notebook, open the project and change the kernel to venv
+    - 
    
+4. How to run the project using jupyter notebook
+    - `$ pwd` # must be on the project
+    - `$ jupyter notebook`
