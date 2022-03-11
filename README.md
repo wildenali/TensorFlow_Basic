@@ -15,8 +15,10 @@
 
     - `$ sudo apt-get update`
     - `$ sudo apt-get install python3-pip`
-    - `$ sudo pip3 install virtualenv`
-    - `$ virtualenv .env`
+    - `$ sudo apt install python3-venv`
+    - `$ python3 -m venv newEnv`
+    - `$ source newEnv/bin/activate`
+    - `$ pip install requests`
     - `$ source .env/bin/activate`
 
 3. Install TensorFlow
@@ -33,9 +35,13 @@
 5. If using Jupyter Notebook in Ubuntu
     - Change directory to your project
     - `$ jupyter notebook` (pip install jupyter)
-    - `$ ipython kernel install --user --name=.env`
+    - `$ ipython kernel install --user --name=newEnv`
     - On the jupyter notebook, open the project and change the kernel to .env
    
 6. How to run the project using jupyter notebook
     - `$ pwd` # must be on the project
     - `$ jupyter notebook`
+
+7. Install matplotlib
+    - `$ source .env/bin/activate`
+    - `$ pip install matplotlib`
