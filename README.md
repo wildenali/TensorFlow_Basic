@@ -19,7 +19,6 @@
     - `$ python3 -m venv newEnv`
     - `$ source newEnv/bin/activate`
     - `$ pip install requests`
-    - `$ source .env/bin/activate`
 
 3. Install TensorFlow
     - `$ pip install --upgrade pip`
