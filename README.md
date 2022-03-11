@@ -6,23 +6,36 @@
 
 1. Install Virtual Environment in Windows
     - `$ pip install virtualenv`
-    - `$ virtualenv env`
+    - `$ virtualenv venv`
     - `$ cd env/Scripts`
     - `$ activate.bat`
     - `$ cd ../..`
 
-2. Install TensorFlow
+2. Install Virtual Environment in Ubuntu
+
+    - `$ sudo apt-get update`
+    - `$ sudo apt-get install python3-pip`
+    - `$ sudo pip3 install virtualenv`
+    - `$ virtualenv .env`
+    - `$ source .env/bin/activate`
+
+3. Install TensorFlow
     - `$ pip install --upgrade pip`
     - `$ pip install tensorflow`
     - `$ pip install tf-nightly` //opsional
 
-3. If using Jupyter Notebook
+4. If using Jupyter Notebook in Windows
     - Change directory to your project
     - `$ ipython kernel install --user --name=venv`
     - `$ jupyter notebook`
     - On the jupyter notebook, open the project and change the kernel to venv
-    - 
+
+5. If using Jupyter Notebook in Ubuntu
+    - Change directory to your project
+    - `$ jupyter notebook` (pip install jupyter)
+    - `$ ipython kernel install --user --name=.env`
+    - On the jupyter notebook, open the project and change the kernel to .env
    
-4. How to run the project using jupyter notebook
+6. How to run the project using jupyter notebook
     - `$ pwd` # must be on the project
     - `$ jupyter notebook`
