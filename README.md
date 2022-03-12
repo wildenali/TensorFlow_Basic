@@ -16,8 +16,8 @@
     - `$ sudo apt-get update`
     - `$ sudo apt-get install python3-pip`
     - `$ sudo apt install python3-venv`
-    - `$ python3 -m venv newEnv`
-    - `$ source newEnv/bin/activate`
+    - `$ python3 -m venv env`
+    - `$ source env/bin/activate`
     - `$ pip install requests`
 
 3. Install TensorFlow
@@ -34,7 +34,7 @@
 5. If using Jupyter Notebook in Ubuntu
     - Change directory to your project
     - `$ jupyter notebook` (pip install jupyter)
-    - `$ ipython kernel install --user --name=newEnv`
+    - `$ ipython kernel install --user --name=env`
     - On the jupyter notebook, open the project and change the kernel to .env
    
 6. How to run the project using jupyter notebook
