@@ -28,6 +28,8 @@
 4. If using Jupyter Notebook in Windows
     - Change directory to your project
     - `$ ipython kernel install --user --name=venv`
+    - `$ ipython kernel install --user --name=env`  # for ubuntu
+    - `$ pip install -U ipykernel`
     - `$ jupyter notebook`
     - On the jupyter notebook, open the project and change the kernel to venv
 
@@ -44,3 +46,7 @@
 7. Install matplotlib
     - `$ source .env/bin/activate`
     - `$ pip install matplotlib`
+
+8. Install scikit-learn
+    - `$ source .env/bin/activate`
+    - `$ pip install scikit-learn`
