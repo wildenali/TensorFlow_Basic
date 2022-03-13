@@ -50,3 +50,7 @@
 8. Install scikit-learn
     - `$ source .env/bin/activate`
     - `$ pip install scikit-learn`
+
+8. Install cv2
+    - `$ source .env/bin/activate`
+    - `$ pip install scikit-learn`
