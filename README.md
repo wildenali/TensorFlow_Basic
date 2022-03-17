@@ -54,3 +54,10 @@
 9. Install cv2
     - `$ source env/bin/activate`
     - `$ pip install opencv-python`
+
+
+## 103_convolutional_neural_network
+#### b-fine_tunning.ipynb
+
+1. Install tensorflow_datasets
+    - `$ pip install tensorflow-datasets`
