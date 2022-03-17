@@ -44,13 +44,15 @@
     - `$ jupyter notebook`
 
 7. Install matplotlib
-    - `$ source .env/bin/activate`
+    - `$ source env/bin/activate`
     - `$ pip install matplotlib`
 
 8. Install scikit-learn
-    - `$ source .env/bin/activate`
+    - `$ source env/bin/activate`
     - `$ pip install scikit-learn`
 
-8. Install cv2
-    - `$ source .env/bin/activate`
-    - `$ pip install scikit-learn`
+9. Install cv2
+    - `$ source env/bin/activate`
+    - `$ pip install opencv-python`
+
+pip install tensorflow-gpu
