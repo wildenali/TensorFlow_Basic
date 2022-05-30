@@ -22,14 +22,14 @@
 
 3. Install TensorFlow
     - `$ pip install --upgrade pip`
-    - `$ pip install tensorflow`
-    - `$ pip install tf-nightly` //opsional
+    - `$ pip install tensorflow` or `$ pip install --upgrade tensorflow-gpu` if using gpu
+    - `$ pip install -U ipykernel`
 
 4. If using Jupyter Notebook in Windows
     - Change directory to your project
+    - `$ pip install -U ipykernel`
     - `$ ipython kernel install --user --name=venv`
     - `$ ipython kernel install --user --name=env`  # for ubuntu
-    - `$ pip install -U ipykernel`
     - `$ jupyter notebook`
     - On the jupyter notebook, open the project and change the kernel to venv
 
@@ -55,4 +55,9 @@
     - `$ source env/bin/activate`
     - `$ pip install opencv-python`
 
-pip install tensorflow-gpu
+
+## 103_convolutional_neural_network
+#### b-fine_tunning.ipynb
+
+1. Install tensorflow_datasets
+    - `$ pip install tensorflow-datasets`
